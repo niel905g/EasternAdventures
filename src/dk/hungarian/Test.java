@@ -8,7 +8,9 @@ public class Test {
         grete.displayPosition();
         // DEBUG  System.out.println("Grete er på X" + grete.getPosition()[0] + "Y" +grete.getPosition()[1]);
 
-
+        Skabning s = new Skabning("as", "as", 1, Gender.APACHE_HELICOPTER);
+        // Man kan ikke instanciere en abstract klasse
+        // Genstand g = new Genstand();
     }
 
 }
