@@ -17,5 +17,14 @@ public class Scammer extends Skabning{
     public Scammer(int scamXP){
         super("# Scammer ", "who is imposing as a 'Sexy single Russian Lady' looking for a good time. #", 15, Gender.TRAP);
         this.scamXP = scamXP;
+
+        if (scamXP >= 80){
+            setStyrke(75);
+            System.out.println("You took the bait, and transferred all your money to a scammer, hoping that a Sexy single Russian Lady would come to you");
+        }
+        else if (scamXP < 79){
+            setStyrke(20);
+            System.out.println("You clicked on it, but were smart enough not to enter your credit card number and send money");
+        }
     }
 }
