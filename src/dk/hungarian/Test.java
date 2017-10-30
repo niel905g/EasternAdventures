@@ -1,4 +1,9 @@
+//made by Michael Trans
+
 package dk.hungarian;
+
+import dk.hungarian.genstande.Key;
+import dk.hungarian.skabninger.Varulv;
 
 public class Test {
 
@@ -11,6 +16,12 @@ public class Test {
         Skabning s = new Skabning("as", "as", 1, Gender.APACHE_HELICOPTER);
         // Man kan ikke instanciere en abstract klasse
         // Genstand g = new Genstand();
-    }
 
+    Key key = new Key();
+        System.out.println(key.toString());
+
+
+    Varulv varulv = new Varulv();
+        System.out.println(varulv.toString());
+    }
 }
