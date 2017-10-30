@@ -9,6 +9,12 @@ public class Helle_Thorning extends Skabning {
 
     public Helle_Thorning(int feministlevel) {
         super(" Helle Thorning ", " Wild Feminist ", 4, Gender.APACHE_HELICOPTER);
+        this.feministlevel = feministlevel;
+    }
+
+    @Override
+    public String toString(){
+        return " You have triggered " + this.getNavn() + " er " + feministlevel;
     }
 
 
