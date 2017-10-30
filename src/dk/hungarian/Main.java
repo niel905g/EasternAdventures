@@ -3,6 +3,7 @@
  */
 package dk.hungarian;
 
+import dk.hungarian.genstande.Key;
 import dk.hungarian.genstande.FluffyBunny_sværd;
 import dk.hungarian.skabninger.SurMor;
 import dk.hungarian.skabninger.Normie;
@@ -25,9 +26,5 @@ public class Main {
             String navn = input.next();
             Player player = new Player(navn); }
         Test.test1();
-
-        Normie normie = new Normie();
-        System.out.println(normie.useBattleCry());
-
     }
 }

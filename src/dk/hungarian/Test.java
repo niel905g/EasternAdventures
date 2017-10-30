@@ -1,5 +1,9 @@
+//made by Michael Trans
+
 package dk.hungarian;
 
+import dk.hungarian.genstande.Key;
+import dk.hungarian.skabninger.Varulv;
 import dk.hungarian.genstande.Fakkel;
 import dk.hungarian.skabninger.Vampyr;
 import dk.hungarian.genstande.BookofJK;
@@ -18,6 +22,7 @@ public class Test {
 
         // Genstand g = new Genstand();
 
+
         //Tester min skabning og genstand
         /*MasterofJava master = new MasterofJava();
         System.out.println(master.getNavn());
@@ -29,4 +34,12 @@ public class Test {
         System.out.println(javaknow.getStyrke());*/
     }
 
+
+    Key key = new Key();
+        System.out.println(key.toString());
+
+
+    Varulv varulv = new Varulv();
+        System.out.println(varulv.toString());
+    }
 }
