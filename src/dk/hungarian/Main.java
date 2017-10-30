@@ -4,6 +4,7 @@
 package dk.hungarian;
 
 import dk.hungarian.skabninger.Normie;
+import dk.hungarian.skabninger.Scammer;
 
 import java.util.Scanner;
 
@@ -26,6 +27,10 @@ public class Main {
 
         Normie normie = new Normie();
         System.out.println(normie.useBattleCry());
+
+        // Scammer har et argument af typen INT.
+        Scammer scammer = new Scammer(90);
+        System.out.println(scammer.toString());
 
     }
 }
