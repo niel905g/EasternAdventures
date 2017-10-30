@@ -1,7 +1,9 @@
 package dk.hungarian;
 
 import dk.hungarian.genstande.AK47;
+import dk.hungarian.genstande.Vodka;
 import dk.hungarian.skabninger.Helle_Thorning;
+import dk.hungarian.skabninger.Ladyboy;
 import dk.hungarian.skabninger.RussiskSpritter;
 
 public class Test {
@@ -34,6 +36,15 @@ public class Test {
         System.out.println(f.genstand[0].navn);
         System.out.println(f.genstand[1].navn);
         System.out.println(f.genstand[2]);
+
+        Ladyboy nimnam = new Ladyboy();
+        nimnam.toString();
+        System.out.println(nimnam.getNavn());
+        Vodka glasVodka = new Vodka();
+        glasVodka.toString();
+
+        Skabning.yo();
+        Ladyboy.yo();
 
 
     }

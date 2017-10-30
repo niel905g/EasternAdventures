@@ -13,6 +13,10 @@ public class Skabning {
         this.gender = gender;
     }
 
+    public static void yo() {
+        System.out.println("YO");
+    }
+
     public String getNavn() {
         return navn;
     }

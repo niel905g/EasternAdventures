@@ -24,7 +24,7 @@ public class Main {
             Player player = new Player(navn); }
         Test.test1();
 
-        Normie normie = new Normie();
+        Normie normie = new Normie(12);
         System.out.println(normie.useBattleCry());
 
     }
