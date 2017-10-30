@@ -1,6 +1,6 @@
 package dk.hungarian;
 
-public class Genstand {
+public abstract class Genstand {
     String navn;
     String beskrivelse;
     int styrke;
