@@ -1,5 +1,8 @@
 package dk.hungarian;
 
+import dk.hungarian.genstande.Laks;
+import dk.hungarian.skabninger.Scammer;
+
 public class Test {
 
     public static void test1() {
