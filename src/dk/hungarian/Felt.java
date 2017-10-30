@@ -5,4 +5,8 @@ public class Felt {
     Genstand[] genstand;
     Skabning skabning;
 
+    public Felt() {
+        beskrivelse = "Du står et random sted i Rusland.";
+    }
+
 }

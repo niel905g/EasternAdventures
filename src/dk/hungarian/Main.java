@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         Boolean debug = true;
+        Kort kortet = new Kort();
         System.out.println("Velkommen. Indtast dit navn:");
 
         if (debug) {
