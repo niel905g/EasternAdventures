@@ -3,6 +3,8 @@
  */
 package dk.hungarian;
 
+import dk.hungarian.skabninger.Normie;
+
 import java.util.Scanner;
 
 public class Main {
@@ -21,5 +23,9 @@ public class Main {
             String navn = input.next();
             Player player = new Player(navn); }
         Test.test1();
+
+        Normie normie = new Normie();
+        System.out.println(normie.useBattleCry());
+
     }
 }
