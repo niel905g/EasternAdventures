@@ -15,6 +15,10 @@ public abstract class Genstand {
         this.styrke = styrke;
     }
 
+    public Genstand() {
+
+    }
+
     public String getNavn() {
         return navn;
     }
