@@ -3,6 +3,9 @@
  */
 package dk.hungarian;
 
+import dk.hungarian.genstande.Key;
+import dk.hungarian.genstande.FluffyBunny_sværd;
+import dk.hungarian.skabninger.SurMor;
 import dk.hungarian.skabninger.Normie;
 import dk.hungarian.skabninger.Scammer;
 
