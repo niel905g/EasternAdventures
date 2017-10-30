@@ -24,4 +24,9 @@ public class RussiskSpritter extends Skabning {
         return "RussiskSpritter " + this.getNavn() + " er " +
                 + hvorFuld + "% fuld.";
     }
+
+    public String getNavn() {
+        System.out.println("Du må ikke spørge pom mit nanvn. ");
+        return super.getNavn();
+    }
 }

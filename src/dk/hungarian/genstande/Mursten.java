@@ -8,7 +8,7 @@ public class Mursten extends Genstand {
 
     public Mursten(String triggerReduction) {
         super("Mursten", "Brug denne mursten for trigger-reduction", 60);
-        this.triggerReduction = triggerReduction;
+        this.triggerReduction = Integer.getInteger(triggerReduction);
     }
     public String kast() {
         if (triggerReduction>0){
@@ -17,5 +17,7 @@ public class Mursten extends Genstand {
         if (triggerReduction<1) {
             return "Kast murstenen! Feministen er triggered!";
         }
+
+        return "Default case.";
     }
 }
