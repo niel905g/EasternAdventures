@@ -15,9 +15,5 @@ public class Laks extends Genstand {
 
     public Laks(){
         super("# Laks:", " den er våd, slimet og lugtende! #", 15);
-
     }
-
-
-
 }
