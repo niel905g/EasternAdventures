@@ -5,20 +5,21 @@ import dk.hungarian.Genstand;
 public class FluffyBunny_sværd extends Genstand {
     //Tilføjer en lyd til sværdet.
     String lyd = "Ffffkrrrrshhzzzwooooom..woom..woooom..";
- //Getters til sværdet. lyden ændre sig ikke så kun getters.
+
+    //Getters til sværdet. lyden ændre sig ikke så kun getters.
     public String getLyd() {
         return lyd;
     }
-//Constructor
-    public FluffyBunny_sværd(){
+
+    //Constructor
+    public FluffyBunny_sværd() {
         //Navn, beskrivelse og styrke.
         super("FluffyBunny", "Legendarisk sværd", 100);
         this.lyd = lyd;
 
 
-
     }
-}
+
 
 /*Til at køre klasserne (Virker)
         SurMor surmor = new SurMor(25);
@@ -29,7 +30,7 @@ public class FluffyBunny_sværd extends Genstand {
 */
 
 
-
+}
 
 
 
