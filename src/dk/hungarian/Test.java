@@ -16,13 +16,7 @@ public class Test {
         // Genstand g =
 
 
-        Fakkel fakkel1 = new Fakkel(376);
-        System.out.println(fakkel1.toString());
 
-        System.out.println("");
-
-        Vampyr vampyr1 = new Vampyr(23);
-        System.out.println(vampyr1.toString());
     }
 
 }
