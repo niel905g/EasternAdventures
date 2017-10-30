@@ -5,10 +5,18 @@ public abstract class Genstand {
     String beskrivelse;
     int styrke;
 
+    public Genstand()  {
+
+    }
+
     public Genstand(String navn, String beskrivelse, int styrke) {
         this.navn = navn;
         this.beskrivelse = beskrivelse;
         this.styrke = styrke;
+    }
+
+    public Genstand() {
+
     }
 
     public String getNavn() {
