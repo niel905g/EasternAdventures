@@ -17,10 +17,16 @@ public class NisseFar extends Skabning{
         this.hvorArrig = hvorArrig;
     }
 
-
     @Override
     public String toString(){
         return " You have triggered " + this.getNavn() + " er " + malechouvenist;
     }
 
+    public int getHvorArrig() {
+        return hvorArrig;
+    }
+
+    public void setHvorArrig(int hvorArrig) {
+        this.hvorArrig = hvorArrig;
+    }
 }
