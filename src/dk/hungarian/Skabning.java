@@ -4,7 +4,11 @@ public class Skabning {
     private String navn;
     private String beskrivelse;
     private int styrke;
-    private  Gender gender;
+    private Gender gender;
+
+    public Skabning()   {
+
+    }
 
     public Skabning(String navn, String beskrivelse, int styrke, Gender gender) {
         this.navn = navn;
