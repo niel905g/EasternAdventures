@@ -1,20 +1,25 @@
 package dk.hungarian;
 
+import java.util.ArrayList;
+
 public class Player {
     private String navn;
-    private Genstand[] taske;
+    private ArrayList inventory;
     private int positionX = 4;
     private int positionY = 4;
 
+    /* Constructor */
     public Player(String navn) {
         this.navn = navn;
-        System.out.println("Velkommen til EasterAdventures " + navn);
+        System.out.println("Velkommen til EasterAdventures, " + navn + "!");
     }
 
+    /* Viser position direkte på System.out */
     public void displayPosition() {
-        System.out.println("Jeg er på X" + positionX + "Y" +positionX);
+        System.out.println("Du står på X" + positionX + "Y" + positionX + ".");
     }
 
+    /* Returnererer et array med spillerens X og Y koordinater [int x, int y]  */
     public int[] getPosition() {
         int[] position = new int[2];
         position[0] = positionX;
@@ -22,6 +27,7 @@ public class Player {
         return position;
     }
 
+    /* Getters og setters for spillerens navn */
     public String getNavn() {
         return navn;
     }

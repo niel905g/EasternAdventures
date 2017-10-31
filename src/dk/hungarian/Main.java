@@ -13,27 +13,24 @@ import java.util.Scanner;
 
 public class Main {
 
+    /* Main classen starter spillet, og bringer alle de andre klasser i spil. */
     public static void main(String[] args) {
 
-        Boolean debug = true;
+        Boolean debug = true; // Vi indbygger en debug mode i vores kode, så vi ikke behøver at spille spillet hver gange, vi tester
         Kort kortet = new Kort();
-        System.out.println("Velkommen. Indtast dit navn:");
+        Player player;
 
         if (debug) {
-            Player player = new Player("Hans");
+            player = new Player("Hans");
         } else
         {
+            System.out.println("Velkommen. Indtast dit navn:");
             Scanner input = new Scanner(System.in);
             String navn = input.next();
-            Player player = new Player(navn); }
-        Test.test1();
+            player = new Player(navn);
+        }
 
-        Normie normie = new Normie(12);
-        System.out.println(normie.useBattleCry());
-
-        // Scammer har et argument af typen INT.
-        Scammer scammer = new Scammer(90);
-        System.out.println(scammer.toString());
+        Test.test1(player);
 
     }
 }
