@@ -4,6 +4,6 @@ En tekstbaseret rollespil udviklet af datamatikere i Næstved.
 ## Issues
 Følgende issues blev opdaget efter Coding Sprint 1.
 1. Vi skriver på en blandning af engelsk og dansk. Vi skal nok vælge et enkelt sprog for spillet: Dansk.
-2. Skriv kommentarer!Ggerne navn og kontaktinfo som kommentar til dine klasser, også dato for sidste rettelser.
+2. Skriv kommentarer! Gerne navn og kontaktinfo som kommentar til dine klasser, også dato for sidste rettelser.
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Eastern Adventures](https://i.imgur.com/APH3T9H.gif)](https://www.youtube.com/watch?v=A1PAO3jgmXY "Eastern Adventures")
