@@ -5,3 +5,8 @@ En tekstbaseret rollespil udviklet af datamatikere i Næstved.
 Følgende issues blev opdaget efter Coding Sprint 1.
 1. Vi skriver på en blandning af engelsk og dansk. Vi skal nok vælge et enkelt sprog for spillet: Dansk.
 2. Skriv kommentarer!Ggerne navn og kontaktinfo som kommentar til dine klasser, også dato for sidste rettelser.
+
+[![Eastern Adventures](https://img.youtube.com/vi/
+https://youtu.be/A1PAO3jgmXY/0.jpg)](https://www.youtube.com/watch?v=
+https://youtu.be/A1PAO3jgmXY)
+
