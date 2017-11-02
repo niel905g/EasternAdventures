@@ -1,6 +1,8 @@
 package dk.hungarian;
 
-public class Skabning {
+import dk.hungarian.interfaces.Lookable;
+
+public class Skabning implements Lookable {
     private String navn;
     private String beskrivelse;
     private int styrke;

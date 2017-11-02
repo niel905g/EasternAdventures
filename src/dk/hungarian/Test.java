@@ -56,6 +56,12 @@ public class Test {
         Scammer scammer = new Scammer(90);
         System.out.println(scammer.toString());
 
+        // Her tester vi sur mor
+        System.out.println("--> Tester SurMor");
+        SurMor mor = new SurMor(90);
+        System.out.println(mor.toString());
+
+
         System.out.println("********** Test SLUT **********");
 
     }
