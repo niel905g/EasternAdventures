@@ -65,4 +65,7 @@ public class Test {
         System.out.println("********** Test SLUT **********");
 
     }
+
+    public static void test1() {
+    }
 }

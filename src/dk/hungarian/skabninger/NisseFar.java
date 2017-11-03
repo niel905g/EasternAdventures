@@ -5,7 +5,7 @@ import dk.hungarian.Skabning;
 
 public class NisseFar extends Skabning{
     private int hvorArrig = 100;
-    int malechouvenist;
+ //   int malechouvenist;
 
 
     public NisseFar(String navn, String beskrivelse, int styrke, Gender gender) {
@@ -19,7 +19,7 @@ public class NisseFar extends Skabning{
 
     @Override
     public String toString(){
-        return " You have triggered " + this.getNavn() + " er " + malechouvenist;
+        return " Du har mødt " + this.getNavn() + " som er " + hvorArrig;
     }
 
     public int getHvorArrig() {
@@ -28,5 +28,10 @@ public class NisseFar extends Skabning{
 
     public void setHvorArrig(int hvorArrig) {
         this.hvorArrig = hvorArrig;
+    }
+
+    @Override
+    public String look() {
+        return null;
     }
 }
